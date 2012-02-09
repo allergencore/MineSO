@@ -1,0 +1,1 @@
+﻿var xmlHttpReq = new ActiveXObject("MSXML2.XMLHTTP.3.0");

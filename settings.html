@@ -1,0 +1,25 @@
+﻿<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=Unicode" />
+		<style type="text/css"> @import "css/settings.css"; </style>
+		<script src="js/settings.js"></script>
+	</head>
+
+	<body onload="_load()">
+		<fieldset>
+			<legend>user</legend>
+			username:<input type="text" name="userName" /><br>
+			password:<input type="password" name="pass" /><br>
+			sound:<br><input type="file" name="audio" id="file" /><button>play</button><br>
+		</fieldset>
+		<fieldset>
+			<legend>request</legend>
+			address to read:<input type="text" name="addrRead" /><br>
+			address to send:<input type="text" name="addrSend" /><br>
+			method:<br>
+			<input type="radio" name="method" value="GET" />GET
+			<input type="radio" name="method" value="POST" />POST<br>
+			Send RQ var.:<input type="text" name="var" /><br>
+		</fieldset>
+	</body>
+</html>

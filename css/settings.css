@@ -1,0 +1,13 @@
+﻿body{
+	margin: 0;
+	width: 200px;
+	height: 300px;
+	font-size: 10pt;
+	text-align: center;
+}
+input{
+	font-size: 10pt;
+}
+#file{
+	width:150px;
+}
