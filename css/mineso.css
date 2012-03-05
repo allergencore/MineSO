@@ -1,37 +1,33 @@
-﻿body{
+﻿body {
 	margin: 0;
 	width: 130px;
-	height: 130px;
-	font-size: 7pt;
-}
-#gadgetContent
-{
-	position: absolute;
-	left: 5px;
-	margin-top: 5px;
-	width: 125px;
-	height: 130px;
-	vertical-align: middle;
+	height: 30px;
+	font-family: verdana;
+	font-weight: bold;
+	font-size: 20px;
 	text-align: center;
+	vertical-align: middle;
+	background-color: #000;
+}
+/*#gadgetContent {
+	background-color: #FFF;
+	width: 130px;
+	height: 100px;
+	top: 25px;
+	/*bottom: 50%;
+	/*vertical-align: middle;
+	/*text-align: center;
 	overflow: hidden;
+}*/
+img {
+	/*border: #000 solid 1px; */
+	width: 80px;
+	height: 30px;
+	/*top: 10px;
+	/*left: 50%;
+	right: 50%;*/
 }
-#InMessages
-{
-	height: 75px;
-	width: 110px;
-	vertical-align: middle;
-	text-align: center;
-	overflow-y: scroll;
-	border: 1px solid #000;
-}
-#Message
-{
-	margin-left: 2px;
-	border: 1px solid #000;
-	margin-top: 5px;
-}
-#INP
-{
-	width: 100px;
-	font-size: 7pt;
-}
+/*button {
+	width: 80px;
+	height: 25px;
+}*/
